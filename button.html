@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gradient Button</title>
+  <style>
+    .gradient-button {
+      background: linear-gradient(to right, #ff0000, #ffff00, #00ff00);
+      padding: 10px 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      animation: bounce 2s infinite;
+    }
+
+    @keyframes bounce {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(10px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+  </style>
+  
+  
+  
+</head>
+<body>
+  <button class="gradient-button">Click me!</button>
+</body>
+</html>
+
+
